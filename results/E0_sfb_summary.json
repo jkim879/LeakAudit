@@ -1,0 +1,26 @@
+{
+  "D1": {
+    "predictor": "sensor id",
+    "protocol": "in-sample",
+    "sfb": 1.0,
+    "baseline": 0.31492952943850877,
+    "n": 70384,
+    "margin": 0.6850704705614912
+  },
+  "D2": {
+    "predictor": "logger id",
+    "protocol": "in-sample",
+    "sfb": 1.0,
+    "baseline": 0.5932203389830508,
+    "n": 118,
+    "margin": 0.4067796610169492
+  },
+  "D3": {
+    "predictor": "topology",
+    "protocol": "in-sample",
+    "sfb": 0.8,
+    "baseline": 0.8,
+    "n": 280,
+    "margin": 0.0
+  }
+}

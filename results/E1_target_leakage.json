@@ -1,0 +1,5 @@
+{
+  "rule_threshold": 90.0,
+  "rule_accuracy": 1.0,
+  "verdict": "NEAR-DETERMINISTIC TARGET PROXY"
+}
