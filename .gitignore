@@ -20,5 +20,11 @@ Thumbs.db
 .vscode/
 .idea/
 
-# Keep the results/ and figures/ directories but ignore nothing inside by
-# default, so that a reproduced run can be committed if desired.
+
+# Local working files (not part of the public repository)
+notebooks/12_revision_numbers.ipynb
+results/revision_ledger.jsonl
+results/revision_numbers.csv
+results/REVISION_RESULTS.md
+
+results/table1_benchmarks.csv

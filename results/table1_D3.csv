@@ -1,0 +1,2 @@
+dataset,task,unit,n,class_counts,majority_rate,groups
+D3,leak vs no-leak (CC/GL/LC/OL vs NL),hydrophone recording (accuracy: 1 s segments),120,leak=96; noleak=24,0.8,"60 runs, 6 operating conditions, 2 topologies"

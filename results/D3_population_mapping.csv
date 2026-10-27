@@ -1,0 +1,4 @@
+population,n,composition,n_runs,majority_rate
+all modalities (v1 Table 3 SFB),280,hydrophone=120; accel=80; pressure=80,100,0.8
+hydrophone recordings (all D3 accuracy results),120,H1=60; H2=60,60,0.8
+hydrophone 1 s segments (E5),3600,30 segments per recording,60,0.8

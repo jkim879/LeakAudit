@@ -1,0 +1,22 @@
+{
+  "source": "raw CSV headers",
+  "identical_header_in_all_files": true,
+  "n_columns_total": 539,
+  "n_spectral_bins": 513,
+  "hz_min": 0,
+  "hz_max": 5120,
+  "hz_step": 10,
+  "n_positions_inclusive_grid": 513,
+  "spectral_bins_equal_inclusive_grid": true,
+  "n_max_columns": 20,
+  "non_spectral_columns": [
+    "site",
+    "sid",
+    "ldate",
+    "lrate",
+    "llevel",
+    "leaktype"
+  ],
+  "n_non_spectral_columns": 6,
+  "note": "0-5120 Hz at 10 Hz spacing, endpoints included, is 513 positions; the provider's '512' is the exclusive count, so the extra bin is an endpoint-counting convention, not an error."
+}

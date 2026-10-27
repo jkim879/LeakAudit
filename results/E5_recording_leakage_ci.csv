@@ -1,4 +1,4 @@
-protocol,mean,ci_lo,ci_hi,n
-S1_segment_random,0.9880555555555555,0.9866666666666666,0.9893518518518517,10
-S2_recording_indep,0.9051851851851852,0.8749074074074075,0.9311111111111112,10
-S3_condition_indep,0.595,0.49462962962962964,0.6599999999999999,5
+experiment,quantity,estimate,lo,hi,unit,n_units,kind,note
+E5 D3 v1 design,S1_segment_random | acc,0.9874074074074073,0.9855555555555556,0.9892592592592593,seed (split + initialisation),10,level,"fitting/split variability, not sampling variability"
+E5 D3 v1 design,S2_recording_indep | acc,0.9051851851851852,0.8758287037037036,0.9316666666666666,seed (split + initialisation),10,level,"fitting/split variability, not sampling variability"
+E5 D3 v1 design,S3_condition_indep_v1 | acc,0.595,0.49296296296296294,0.6599999999999999,seed (split + initialisation),5,level,"fitting/split variability, not sampling variability"

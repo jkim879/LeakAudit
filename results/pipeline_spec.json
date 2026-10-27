@@ -1,0 +1,24 @@
+{
+  "D1_inputs": "513 raw spectral bins (0-5120 Hz inclusive, 10 Hz step); no device field (lrate, llevel), no identifier, no date and none of the 20 MAX columns is ever an input to an acoustic model",
+  "D1_normalisation": "none for tree models; StandardScaler (fit on the training fold only) for logistic regression and MLP",
+  "D2_D3_audio": {
+    "bandpass": "Butterworth order 5, zero-phase, 100 Hz to min(5000 Hz, 0.99 x Nyquist)",
+    "window": "1 s; 'minstd' = lowest-standard-deviation window on a quarter-window hop (2023 rule); controls: random/first/full",
+    "features": "mel spectrogram (n_fft=2048, hop=512, n_mels=96, power 2, dB re max); per-band mean and std (192) + 7 spectral descriptors = 199 values",
+    "D2_read": "librosa.load(sr=None, mono=True, duration=10 s)",
+    "D3_read": "PCM_32 little-endian mono 8 kHz, first 240 000 samples"
+  },
+  "models": {
+    "gbdt": "HistGradientBoostingClassifier(max_iter=150, early_stopping=False)",
+    "rf": "RandomForestClassifier(n_estimators=300)",
+    "logreg": "StandardScaler + LogisticRegression(max_iter=2000)",
+    "mlp": "StandardScaler + MLPClassifier(hidden=(256,128), max_iter=300)",
+    "tuning": "none: library defaults except the values listed; identical settings under every protocol, so only the protocol varies"
+  },
+  "pretrained_checkpoints": {
+    "WAV2VEC2_BASE": "torchaudio.pipelines.WAV2VEC2_BASE (last transformer layer)",
+    "HUBERT_BASE": "torchaudio.pipelines.HUBERT_BASE (last transformer layer)",
+    "AST": "MIT/ast-finetuned-audioset-10-10-0.4593 (last hidden state)",
+    "pooling": "mean and std over time -> 1536 values; frozen; logistic-regression probe"
+  }
+}

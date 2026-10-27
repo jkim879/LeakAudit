@@ -1,0 +1,18 @@
+{
+  "documented": {
+    "id_device": 5,
+    "label": 1,
+    "spectral_documented": 512,
+    "max_cols": 20,
+    "total_documented": 538
+  },
+  "observed": {
+    "spectral": 513,
+    "max_cols": 20,
+    "non_spectral": 6,
+    "total": 539
+  },
+  "spectral_grid_inclusive": 513,
+  "reading": "documented '512' columns run from 0 Hz to 5,120 Hz at 10 Hz, which is 513 positions; the copy has 513 spectral bins, so the difference is the inclusive endpoint, not a missing or extra frequency",
+  "provider_note": "'512 columns', listed as item 1 = 0 Hz ... item 512 = 5,120 Hz at 10 Hz; 0-5,120 Hz with both ends is 513 positions"
+}

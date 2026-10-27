@@ -1,0 +1,6 @@
+fold,n_test,n_test_sites,fallback_class,fallback_acc,test_majority_class,test_majority_share,test_mix
+0,14075,8,out,0.09953818827708703,normal,0.7737833037300178,normal=0.77; out=0.10; in=0.06; noise=0.04; other=0.02
+1,14075,8,normal,0.11538188277087033,out,0.4429840142095915,out=0.44; in=0.33; normal=0.12; other=0.09; noise=0.03
+2,14085,10,normal,0.08171813986510472,out,0.36691515796947105,out=0.37; in=0.28; other=0.16; noise=0.11; normal=0.08
+3,14075,14,out,0.1144582593250444,normal,0.5997158081705151,normal=0.60; other=0.18; out=0.11; in=0.09; noise=0.01
+4,14074,9,normal,0.004192127326985932,out,0.37771777746198665,out=0.38; in=0.29; noise=0.21; other=0.11; normal=0.00

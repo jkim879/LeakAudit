@@ -1,5 +1,21 @@
 {
+  "alarm_target": "alarm (out, in, noise, other) vs normal; the target that the device field lrate reproduces",
   "rule_threshold": 90.0,
-  "rule_accuracy": 1.0,
-  "verdict": "NEAR-DETERMINISTIC TARGET PROXY"
+  "rule_accuracy_alarm_vs_normal": 1.0,
+  "lrate_values_normal": [
+    30,
+    40,
+    50,
+    60,
+    70
+  ],
+  "lrate_values_alarm": [
+    90
+  ],
+  "lrate_constant_within_alarm_classes": true,
+  "leak_vs_nonleak_rule_accuracy": 0.8074136167310753,
+  "note_leak_vs_nonleak": "lrate = 90 for out/in/noise/other; separates normal rows only",
+  "sensors_with_varying_lrate": 1043,
+  "of_which_normal_sensors": 1043,
+  "provenance": "누수확율 (leak rate): over a two-hour early-morning window each day the sensor checks for a leak 10 times; the share of checks whose response exceeds a set threshold is reported as a probability. Generated automatically by the leak-detection sensor. Integer 0-90."
 }

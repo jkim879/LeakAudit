@@ -1,26 +1,56 @@
-{
-  "D1": {
-    "predictor": "sensor id",
-    "protocol": "in-sample",
-    "sfb": 1.0,
-    "baseline": 0.31492952943850877,
+[
+  {
+    "dataset": "D1",
+    "task": "5-class",
+    "unit_held_out": "sites",
+    "sfb_predictor": "lrate (device)",
+    "sfb_protocol": "site-independent",
+    "sfb": 0.5952631279836327,
+    "majority": 0.31492952943850877,
+    "sfb_margin": 0.2803335985451239,
+    "sfb_lo": 0.43298768244065233,
+    "sfb_hi": 0.7422163200636668,
+    "insample_ceiling": 1.0,
     "n": 70384,
-    "margin": 0.6850704705614912
+    "acoustic_model": "acoustic: 513 bins",
+    "acoustic_acc": 0.520203455330757,
+    "acoustic_lo": 0.3680433087426503,
+    "acoustic_hi": 0.6589511613220376
   },
-  "D2": {
-    "predictor": "logger id",
-    "protocol": "in-sample",
-    "sfb": 1.0,
-    "baseline": 0.5932203389830508,
+  {
+    "dataset": "D2",
+    "task": "leak/no-leak",
+    "unit_held_out": "loggers",
+    "sfb_predictor": "recording hour",
+    "sfb_protocol": "logger-independent",
+    "sfb": 0.847457627118644,
+    "majority": 0.5932203389830508,
+    "sfb_margin": 0.2542372881355932,
+    "sfb_lo": 0.7187057783018868,
+    "sfb_hi": 0.9607843137254902,
+    "insample_ceiling": 1.0,
     "n": 118,
-    "margin": 0.4067796610169492
+    "acoustic_model": "AST",
+    "acoustic_acc": 0.861864406779661,
+    "acoustic_lo": 0.7478260869565218,
+    "acoustic_hi": 0.9444571865443424
   },
-  "D3": {
-    "predictor": "topology",
-    "protocol": "in-sample",
+  {
+    "dataset": "D3",
+    "task": "leak/no-leak",
+    "unit_held_out": "runs",
+    "sfb_predictor": "all metadata",
+    "sfb_protocol": "run-independent",
     "sfb": 0.8,
-    "baseline": 0.8,
-    "n": 280,
-    "margin": 0.0
+    "majority": 0.8,
+    "sfb_margin": 0.0,
+    "sfb_lo": 0.7,
+    "sfb_hi": 0.9,
+    "insample_ceiling": 0.8,
+    "n": 120,
+    "acoustic_model": "acoustic: 199 mel features",
+    "acoustic_acc": 0.9358333333333332,
+    "acoustic_lo": 0.8997013888888888,
+    "acoustic_hi": 0.9686111111111112
   }
-}
+]

@@ -1,7 +1,7 @@
 {
   "majority_baseline": 0.31492952943850877,
-  "acc_site_identity": 0.654992611957263,
-  "acc_sensor_identity": 1.0,
+  "acc_site_identity_insample": 0.654992611957263,
+  "acc_sensor_identity_insample": 1.0,
   "n_pure_sensors": 2710,
   "n_sensors": 2710
 }

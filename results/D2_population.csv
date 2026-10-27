@@ -1,0 +1,7 @@
+population,unit,n,n_leak,n_noleak,majority_rate,n_loggers,sensors,used_for
+all public files,file,160,80,80,0.5,50,Hydrophones|MEMS Accelerometers|Noise Loggers,inventory only
+MEMS .xlsx,file,20,10,10,0.5,0,MEMS Accelerometers,accelerometer spreadsheets; not audio; excluded from every analysis
+WAV files,file,140,70,70,0.5,50,Hydrophones|Noise Loggers,pretrained-embedding analysis (Section 4.5)
+"WAV, parseable time",file,118,48,70,0.5932203389830508,32,Hydrophones|Noise Loggers,"recording-time stump (Section 4.3), Figure 4"
+"WAV, no parseable time",file,22,22,0,1.0,18,Noise Loggers,excluded from the time analysis
+"WAV, 03:30-04:30 window",file,70,48,22,0.6857142857142857,19,Hydrophones|Noise Loggers,matched early-morning subset (R2-6)

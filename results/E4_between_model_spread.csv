@@ -1,0 +1,13 @@
+task,protocol,between_model_spread
+T5_five_class,P1_naive_random,0.26587895434741426
+T5_five_class,P2_sensor_indep,0.03028717357184718
+T5_five_class,P3_site_indep,0.01511610299361843
+T5_five_class,P4_site_temporal,0.024631301087988944
+TL_leak_vs_nonleak,P1_naive_random,0.15010892214434546
+TL_leak_vs_nonleak,P2_sensor_indep,0.031793624364178874
+TL_leak_vs_nonleak,P3_site_indep,0.02860556121729596
+TL_leak_vs_nonleak,P4_site_temporal,0.019715681533972407
+TR_out_vs_in,P1_naive_random,0.2691412635830369
+TR_out_vs_in,P2_sensor_indep,0.03401771750785443
+TR_out_vs_in,P3_site_indep,0.016272370614034415
+TR_out_vs_in,P4_site_temporal,0.0126025177109228

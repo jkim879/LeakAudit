@@ -1,0 +1,34 @@
+{
+  "n_untimed_wav": 22,
+  "untimed_labels": {
+    "leak": 22
+  },
+  "untimed_naming": {
+    "idx_logger_date": 22
+  },
+  "untimed_sensor": {
+    "Noise Loggers": 22
+  },
+  "n_mems_xlsx": 20,
+  "total_without_time": 42,
+  "format_by_timed_label": [
+    {
+      "timed": "False",
+      "label": "leak",
+      "sr": "[4096]",
+      "dur_s": "[10.0, 20.0]"
+    },
+    {
+      "timed": "True",
+      "label": "leak",
+      "sr": "[4096, 8092]",
+      "dur_s": "[10.0, 10.0]"
+    },
+    {
+      "timed": "True",
+      "label": "noleak",
+      "sr": "[4096, 8092]",
+      "dur_s": "[10.0, 20.0]"
+    }
+  ]
+}

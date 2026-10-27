@@ -1,0 +1,46 @@
+{
+  "provider_documentation": {
+    "lrate": "누수확율 (leak rate): over a two-hour early-morning window each day the sensor checks for a leak 10 times; the share of checks whose response exceeds a set threshold is reported as a probability. Generated automatically by the leak-detection sensor. Integer 0-90.",
+    "llevel": "누수레벨 (leak level): mean magnitude of the above-threshold responses in the same 10 checks. Generated automatically by the sensor. Integer 0-5000.",
+    "flagged_classes": "out, in, noise, other: assigned by a field leak-survey expert to sensors on which a leak had been DETECTED (flagged) by the sensor (technical report, Table 3).",
+    "normal_class": "normal: 'leak-detection records of service pipes on which a leak was NOT detected' (technical report, Table 3), i.e. records the sensor did not flag; not field-surveyed.",
+    "provider_state_grouping": {
+      "abnormal (이상 상태)": [
+        "out",
+        "in"
+      ],
+      "normal (정상 상태)": [
+        "normal",
+        "noise",
+        "other"
+      ]
+    },
+    "acquisition_window": "daily, two hours in the early morning (10 checks)",
+    "sensors": "Gwangju 7,676 + Goheung 3,441 installed sensors (about 11,000 sites)",
+    "documented_size": "technical report 30,000 records; AI-Hub page 50,000; distributed copy 70,384",
+    "spectral_columns_documented": "'512 columns', listed as item 1 = 0 Hz ... item 512 = 5,120 Hz at 10 Hz; 0-5,120 Hz with both ends is 513 positions",
+    "max_columns_documented": "20 = 10 detections x (max frequency, max level)",
+    "inquiry": "Usol Co. (구종영), nine@usolkorea.com"
+  },
+  "checks": {
+    "lrate within documented range 0-90": true,
+    "llevel within documented range 0-5000": true,
+    "every flagged record (out/in/noise/other) has lrate = 90": true,
+    "every normal (unflagged) record has lrate < 90": true,
+    "lrate values observed for normal": [
+      30,
+      40,
+      50,
+      60,
+      70
+    ],
+    "lrate values observed for flagged": [
+      90
+    ],
+    "rule lrate>=90 reproduces flagged/unflagged (accuracy)": 1.0,
+    "rule lrate>=90 vs provider abnormal/normal state (accuracy)": 0.8074136167310753,
+    "abnormal-state share (= leak vs non-leak majority)": 0.5075159127074336,
+    "lrate separates out vs in": false
+  },
+  "reading": "consistent with provider documentation: lrate = 90 for flagged records, < 90 for normal; no separation of leak vs noise or out vs in"
+}

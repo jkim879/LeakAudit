@@ -1,0 +1,11 @@
+seed,held_out,usable,reason
+0,"BR_LC,BR_OL,LO_NL",True,
+1,"BR_LC,LO_GL,LO_OL",False,no no-leak recording in test
+2,"BR_GL,BR_OL,LO_CC",False,no no-leak recording in test
+3,"BR_GL,BR_OL,LO_CC",False,no no-leak recording in test
+4,"BR_NL,BR_OL,LO_NL",False,no no-leak recording in train
+5,"BR_LC,LO_CC,LO_OL",False,no no-leak recording in test
+6,"BR_GL,LO_LC,LO_NL",True,
+7,"BR_CC,LO_CC,LO_NL",True,
+8,"LO_GL,LO_NL,LO_OL",True,
+9,"BR_OL,LO_LC,LO_NL",True,

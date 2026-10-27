@@ -1,0 +1,17 @@
+{
+  "benchmark": "D1",
+  "task": "TR_out_vs_in",
+  "protocol": "site-independent (GroupShuffleSplit by site)",
+  "test_size_E10": 0.3,
+  "test_size_E11": 0.4,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "train_cap": 20000,
+  "pooled_majority": 0.5692236678879496,
+  "mean_test_majority_E10": 0.5232269777889227
+}

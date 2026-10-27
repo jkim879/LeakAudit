@@ -1,0 +1,5 @@
+dataset,task,definition,unit,n,class_counts,majority_rate,groups
+D1,T5_five_class,five classes: out / in / noise / other / normal,record (one sensor on one date),70384,normal=22166; out=19731; in=14932; other=7897; noise=5658,0.31492952943850877,49 sites / 2710 sensors
+D1,TL_leak_vs_nonleak,"leak (out, in) vs non-leak (noise, other, normal)",record (one sensor on one date),70384,nonleak=35721; leak=34663,0.5075159127074335,49 sites / 2710 sensors
+D1,TR_out_vs_in,"outdoor vs indoor, leak rows only",record (one sensor on one date),34663,out=19731; in=14932,0.5692236678879496,49 sites / 2710 sensors
+D1,TA_alarm_vs_normal,"alarm (out, in, noise, other) vs normal; the target that the device field lrate reproduces",record (one sensor on one date),70384,alarm=48218; normal=22166,0.6850704705614913,49 sites / 2710 sensors

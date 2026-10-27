@@ -1,0 +1,217 @@
+experiment,quantity,estimate,lo,hi,unit,n_units,kind,note
+E4 D1 collapse,T5_five_class | gbdt | P1_naive_random | acc,0.8935357075203637,0.8923799488539496,0.8945823072551619,seed (split + initialisation),10.0,level,"fitting/split variability, not sampling variability"
+E4 D1 collapse,T5_five_class | gbdt | P2_sensor_indep | acc,0.5435261731992365,0.5337085662388451,0.5536787601071214,seed (split + initialisation),10.0,level,"fitting/split variability, not sampling variability"
+E4 D1 collapse,T5_five_class | gbdt | P3_site_indep | acc,0.4805938661421811,0.42239274689258205,0.535437863904112,seed (split + initialisation),10.0,level,"fitting/split variability, not sampling variability"
+E4 D1 collapse,T5_five_class | gbdt | P4_site_temporal | acc,0.3272126752080675,0.26406467075716367,0.3949051212013208,seed (split + initialisation),10.0,level,"fitting/split variability, not sampling variability"
+E4 D1 collapse,T5_five_class | logreg | P1_naive_random | acc,0.6276567531729494,0.6259659736692555,0.6292480820231104,seed (split + initialisation),10.0,level,"fitting/split variability, not sampling variability"
+E4 D1 collapse,T5_five_class | logreg | P2_sensor_indep | acc,0.5132389996273893,0.5044674767597607,0.5223032028731153,seed (split + initialisation),10.0,level,"fitting/split variability, not sampling variability"
+E4 D1 collapse,T5_five_class | logreg | P3_site_indep | acc,0.46547776314856265,0.4035843205311205,0.5205772713978327,seed (split + initialisation),10.0,level,"fitting/split variability, not sampling variability"
+E4 D1 collapse,T5_five_class | logreg | P4_site_temporal | acc,0.3025813741200786,0.249091261989978,0.3584304480497318,seed (split + initialisation),10.0,level,"fitting/split variability, not sampling variability"
+E4 D1 collapse,T5_five_class | mlp | P1_naive_random | acc,0.8933746921765484,0.887908694828566,0.8983236645197955,seed (split + initialisation),10.0,level,"fitting/split variability, not sampling variability"
+E4 D1 collapse,T5_five_class | mlp | P2_sensor_indep | acc,0.5137210464941188,0.5041172175016082,0.5240951646665181,seed (split + initialisation),10.0,level,"fitting/split variability, not sampling variability"
+E4 D1 collapse,T5_five_class | mlp | P3_site_indep | acc,0.4675180911575379,0.407286918700439,0.5248684689578359,seed (split + initialisation),10.0,level,"fitting/split variability, not sampling variability"
+E4 D1 collapse,T5_five_class | mlp | P4_site_temporal | acc,0.3147790658099273,0.25236040164537565,0.3793927859616624,seed (split + initialisation),10.0,level,"fitting/split variability, not sampling variability"
+E4 D1 collapse,T5_five_class | rf | P1_naive_random | acc,0.8496258761129001,0.8477122797878386,0.8516102718317862,seed (split + initialisation),10.0,level,"fitting/split variability, not sampling variability"
+E4 D1 collapse,T5_five_class | rf | P2_sensor_indep | acc,0.5326389727310299,0.5199182840712545,0.5446294917988833,seed (split + initialisation),10.0,level,"fitting/split variability, not sampling variability"
+E4 D1 collapse,T5_five_class | rf | P3_site_indep | acc,0.4697722647311521,0.4116673663012863,0.5260982196848019,seed (split + initialisation),10.0,level,"fitting/split variability, not sampling variability"
+E4 D1 collapse,T5_five_class | rf | P4_site_temporal | acc,0.3081252302854081,0.24498410721771569,0.37429587124121344,seed (split + initialisation),10.0,level,"fitting/split variability, not sampling variability"
+E4 D1 collapse,TL_leak_vs_nonleak | gbdt | P1_naive_random | acc,0.9045652585716992,0.9031253551809054,0.9060902869861717,seed (split + initialisation),10.0,level,"fitting/split variability, not sampling variability"
+E4 D1 collapse,TL_leak_vs_nonleak | gbdt | P2_sensor_indep | acc,0.7521444399399444,0.7400076011618544,0.7646376540509741,seed (split + initialisation),10.0,level,"fitting/split variability, not sampling variability"
+E4 D1 collapse,TL_leak_vs_nonleak | gbdt | P3_site_indep | acc,0.7282584571884562,0.6983932124188519,0.7547136425723775,seed (split + initialisation),10.0,level,"fitting/split variability, not sampling variability"
+E4 D1 collapse,TL_leak_vs_nonleak | gbdt | P4_site_temporal | acc,0.5964655517307248,0.5512859911502002,0.6409723447846609,seed (split + initialisation),10.0,level,"fitting/split variability, not sampling variability"
+E4 D1 collapse,TL_leak_vs_nonleak | logreg | P1_naive_random | acc,0.7857264633453306,0.7840687156658458,0.7875215476415988,seed (split + initialisation),10.0,level,"fitting/split variability, not sampling variability"
+E4 D1 collapse,TL_leak_vs_nonleak | logreg | P2_sensor_indep | acc,0.730643606660461,0.7198455412979247,0.7412031717818056,seed (split + initialisation),10.0,level,"fitting/split variability, not sampling variability"
+E4 D1 collapse,TL_leak_vs_nonleak | logreg | P3_site_indep | acc,0.701992107281677,0.6649245372750602,0.7367937373832042,seed (split + initialisation),10.0,level,"fitting/split variability, not sampling variability"
+E4 D1 collapse,TL_leak_vs_nonleak | logreg | P4_site_temporal | acc,0.5767498701967524,0.5362026241492979,0.6195938851562525,seed (split + initialisation),10.0,level,"fitting/split variability, not sampling variability"
+E4 D1 collapse,TL_leak_vs_nonleak | mlp | P1_naive_random | acc,0.935835385489676,0.9310036228452359,0.9400932941845047,seed (split + initialisation),10.0,level,"fitting/split variability, not sampling variability"
+E4 D1 collapse,TL_leak_vs_nonleak | mlp | P2_sensor_indep | acc,0.7203508155757654,0.7096487570657406,0.7328388950041732,seed (split + initialisation),10.0,level,"fitting/split variability, not sampling variability"
+E4 D1 collapse,TL_leak_vs_nonleak | mlp | P3_site_indep | acc,0.6996665996165249,0.6678704260544276,0.7300854328622792,seed (split + initialisation),10.0,level,"fitting/split variability, not sampling variability"
+E4 D1 collapse,TL_leak_vs_nonleak | mlp | P4_site_temporal | acc,0.5845494348360244,0.5362620507477991,0.6320191769466453,seed (split + initialisation),10.0,level,"fitting/split variability, not sampling variability"
+E4 D1 collapse,TL_leak_vs_nonleak | rf | P1_naive_random | acc,0.905024625876113,0.9038026851676455,0.9063981104375829,seed (split + initialisation),10.0,level,"fitting/split variability, not sampling variability"
+E4 D1 collapse,TL_leak_vs_nonleak | rf | P2_sensor_indep | acc,0.7515182304288957,0.7404093427945729,0.76227397681155,seed (split + initialisation),10.0,level,"fitting/split variability, not sampling variability"
+E4 D1 collapse,TL_leak_vs_nonleak | rf | P3_site_indep | acc,0.728272160833821,0.6985753616206943,0.7535991937260423,seed (split + initialisation),10.0,level,"fitting/split variability, not sampling variability"
+E4 D1 collapse,TL_leak_vs_nonleak | rf | P4_site_temporal | acc,0.5878330869078326,0.5414246482040159,0.6335846424163679,seed (split + initialisation),10.0,level,"fitting/split variability, not sampling variability"
+E4 D1 collapse,TR_out_vs_in | gbdt | P1_naive_random | acc,0.9102317530531782,0.908596980478892,0.9118667660351956,seed (split + initialisation),10.0,level,"fitting/split variability, not sampling variability"
+E4 D1 collapse,TR_out_vs_in | gbdt | P2_sensor_indep | acc,0.543567610240342,0.535090066491759,0.5513706300058195,seed (split + initialisation),10.0,level,"fitting/split variability, not sampling variability"
+E4 D1 collapse,TR_out_vs_in | gbdt | P3_site_indep | acc,0.5258536418658066,0.5076449005603255,0.5446373712804138,seed (split + initialisation),10.0,level,"fitting/split variability, not sampling variability"
+E4 D1 collapse,TR_out_vs_in | gbdt | P4_site_temporal | acc,0.5061197728985358,0.4744471232075176,0.53805437072656,seed (split + initialisation),10.0,level,"fitting/split variability, not sampling variability"
+E4 D1 collapse,TR_out_vs_in | logreg | P1_naive_random | acc,0.6813539763438794,0.6794016251562651,0.683498894124435,seed (split + initialisation),10.0,level,"fitting/split variability, not sampling variability"
+E4 D1 collapse,TR_out_vs_in | logreg | P2_sensor_indep | acc,0.550681112792995,0.5364944568821608,0.5632157644129949,seed (split + initialisation),10.0,level,"fitting/split variability, not sampling variability"
+E4 D1 collapse,TR_out_vs_in | logreg | P3_site_indep | acc,0.5376649814718306,0.5132893336347526,0.5630445498062484,seed (split + initialisation),10.0,level,"fitting/split variability, not sampling variability"
+E4 D1 collapse,TR_out_vs_in | logreg | P4_site_temporal | acc,0.5187222906094585,0.49672115794493804,0.5464887854233925,seed (split + initialisation),10.0,level,"fitting/split variability, not sampling variability"
+E4 D1 collapse,TR_out_vs_in | mlp | P1_naive_random | acc,0.9504952399269161,0.9472064621598232,0.9537268006539092,seed (split + initialisation),10.0,level,"fitting/split variability, not sampling variability"
+E4 D1 collapse,TR_out_vs_in | mlp | P2_sensor_indep | acc,0.5331389808406208,0.5188950455043554,0.546023892930489,seed (split + initialisation),10.0,level,"fitting/split variability, not sampling variability"
+E4 D1 collapse,TR_out_vs_in | mlp | P3_site_indep | acc,0.5213926108577962,0.49967080238148776,0.5419790172757352,seed (split + initialisation),10.0,level,"fitting/split variability, not sampling variability"
+E4 D1 collapse,TR_out_vs_in | mlp | P4_site_temporal | acc,0.518559870736379,0.4792448055227292,0.5583764916542604,seed (split + initialisation),10.0,level,"fitting/split variability, not sampling variability"
+E4 D1 collapse,TR_out_vs_in | rf | P1_naive_random | acc,0.945225502452159,0.9441388595057217,0.9464563900375037,seed (split + initialisation),10.0,level,"fitting/split variability, not sampling variability"
+E4 D1 collapse,TR_out_vs_in | rf | P2_sensor_indep | acc,0.5671566983484754,0.5585455952209107,0.5755929221275818,seed (split + initialisation),10.0,level,"fitting/split variability, not sampling variability"
+E4 D1 collapse,TR_out_vs_in | rf | P3_site_indep | acc,0.5366429435994488,0.5137710617224055,0.5580283088357751,seed (split + initialisation),10.0,level,"fitting/split variability, not sampling variability"
+E4 D1 collapse,TR_out_vs_in | rf | P4_site_temporal | acc,0.5064518761588659,0.4774578072679251,0.5349444812718163,seed (split + initialisation),10.0,level,"fitting/split variability, not sampling variability"
+E4 D1 collapse (seed 0),T5_five_class | P1_naive_random | acc,0.893019511271074,0.851640946060821,0.923747762943404,site,46.0,level,
+E4 D1 collapse (seed 0),T5_five_class | P2_sensor_indep | acc,0.5424615669568439,0.3744965155486905,0.7007869793009042,site,40.0,level,
+E4 D1 collapse (seed 0),T5_five_class | P3_site_indep | acc,0.4787488309259067,0.3075763194392445,0.7096438268002382,site,15.0,level,
+E4 D1 collapse (seed 0),T5_five_class | P4_site_temporal | acc,0.4202088899684236,0.2034936917041699,0.7902326264322438,site,9.0,level,
+E4 D1 collapse (seed 0),TL_leak_vs_nonleak | P1_naive_random | acc,0.9043853002462588,0.8694473304213051,0.9328862382076248,site,46.0,level,
+E4 D1 collapse (seed 0),TL_leak_vs_nonleak | P2_sensor_indep | acc,0.7825060196332654,0.6951874067971593,0.8617750667901626,site,40.0,level,
+E4 D1 collapse (seed 0),TL_leak_vs_nonleak | P3_site_indep | acc,0.727319962589629,0.5901920970292426,0.8535505229469372,site,15.0,level,
+E4 D1 collapse (seed 0),TL_leak_vs_nonleak | P4_site_temporal | acc,0.6176827787223707,0.4468002443877665,0.8863845209192027,site,9.0,level,
+E4 D1 collapse (seed 0),TR_out_vs_in | P1_naive_random | acc,0.9110491393403212,0.8960475604803949,0.9244391854615992,site,43.0,level,
+E4 D1 collapse (seed 0),TR_out_vs_in | P2_sensor_indep | acc,0.5529885961462839,0.4868003239490558,0.6213062565086724,site,33.0,level,
+E4 D1 collapse (seed 0),TR_out_vs_in | P3_site_indep | acc,0.5185453666787483,0.4775108266378483,0.5811921704347477,site,15.0,level,
+E4 D1 collapse (seed 0),TR_out_vs_in | P4_site_temporal | acc,0.5020597322348095,0.4139441573356301,0.5692659035879375,site,9.0,level,
+E4b D1 paired OOF,T5_five_class | P1->P2 | drop in acc,0.3507615367128893,0.2354009774513919,0.4767897282571207,site,49.0,difference,
+E4b D1 paired OOF,T5_five_class | P1->P2 | drop in bacc,0.438429753744607,0.4177701662706017,0.4592859021127397,site,49.0,difference,
+E4b D1 paired OOF,T5_five_class | P1->P2 | drop in excess,0.3507615367128893,0.2354009774513919,0.4767897282571207,site,49.0,difference,
+E4b D1 paired OOF,T5_five_class | P2->P3 | drop in acc,0.0211127528983859,0.0045521497762193,0.0383161895288186,site,49.0,difference,
+E4b D1 paired OOF,T5_five_class | P2->P3 | drop in bacc,0.0223327608876615,0.0083455930459688,0.0337084459140726,site,49.0,difference,
+E4b D1 paired OOF,T5_five_class | P2->P3 | drop in excess,-0.0715077290293248,-0.3291338490171171,0.1556143539966456,site,49.0,difference,
+E4b D1 paired OOF,T5_five_class | P1->P3 | drop in acc,0.3718742896112753,0.2641328291802267,0.4904037338403748,site,49.0,difference,
+E4b D1 paired OOF,T5_five_class | P1->P3 | drop in bacc,0.4607625146322686,0.4389322911143271,0.4794047992309608,site,49.0,difference,
+E4b D1 paired OOF,T5_five_class | P1->P3 | drop in excess,0.2792538076835644,-0.0821010406587058,0.5894909938360562,site,49.0,difference,
+E4b D1 paired OOF,TL_leak_vs_nonleak | P1->P2 | drop in acc,0.1433990679699931,0.0948467366237307,0.2039932404617388,site,49.0,difference,
+E4b D1 paired OOF,TL_leak_vs_nonleak | P1->P2 | drop in bacc,0.1432232005132191,0.1009485757348477,0.2271408032749616,site,49.0,difference,
+E4b D1 paired OOF,TL_leak_vs_nonleak | P1->P2 | drop in excess,0.1433990679699931,0.0948467366237307,0.2039932404617388,site,49.0,difference,
+E4b D1 paired OOF,TL_leak_vs_nonleak | P2->P3 | drop in acc,0.0157706296885655,0.0054946938456388,0.0245665307722759,site,49.0,difference,
+E4b D1 paired OOF,TL_leak_vs_nonleak | P2->P3 | drop in bacc,0.0157506960828801,0.0042713173068729,0.0245430217621008,site,49.0,difference,
+E4b D1 paired OOF,TL_leak_vs_nonleak | P2->P3 | drop in excess,-0.0632530120481927,-0.3329250614760822,0.1708416656866162,site,49.0,difference,
+E4b D1 paired OOF,TL_leak_vs_nonleak | P1->P3 | drop in acc,0.1591696976585587,0.1123343989291333,0.2180176243591729,site,49.0,difference,
+E4b D1 paired OOF,TL_leak_vs_nonleak | P1->P3 | drop in bacc,0.1589738965960992,0.1189825029417449,0.2401495166981526,site,49.0,difference,
+E4b D1 paired OOF,TL_leak_vs_nonleak | P1->P3 | drop in excess,0.0801460559218004,-0.2248053064707027,0.3517482129172428,site,49.0,difference,
+E4b D1 paired OOF,TR_out_vs_in | P1->P2 | drop in acc,0.3562299858638894,0.3157053480807075,0.3916213378745609,site,48.0,difference,
+E4b D1 paired OOF,TR_out_vs_in | P1->P2 | drop in bacc,0.3660257349917875,0.3279286410303536,0.3994953105157764,site,48.0,difference,
+E4b D1 paired OOF,TR_out_vs_in | P1->P2 | drop in excess,0.3562299858638894,0.3157053480807075,0.3916213378745609,site,48.0,difference,
+E4b D1 paired OOF,TR_out_vs_in | P2->P3 | drop in acc,0.0344459510140495,0.0166475105222864,0.0546793716348973,site,48.0,difference,
+E4b D1 paired OOF,TR_out_vs_in | P2->P3 | drop in bacc,0.0372203311746308,0.0188223110516447,0.0560069493579492,site,48.0,difference,
+E4b D1 paired OOF,TR_out_vs_in | P2->P3 | drop in excess,0.0344459510140495,0.0166475105222864,0.0546793716348973,site,48.0,difference,
+E4b D1 paired OOF,TR_out_vs_in | P1->P3 | drop in acc,0.390675936877939,0.3540799166567705,0.422100372649442,site,48.0,difference,
+E4b D1 paired OOF,TR_out_vs_in | P1->P3 | drop in bacc,0.4032460661664183,0.3676276362114277,0.4314504509832588,site,48.0,difference,
+E4b D1 paired OOF,TR_out_vs_in | P1->P3 | drop in excess,0.390675936877939,0.3540799166567705,0.422100372649442,site,48.0,difference,
+E10 D1 mitigation,ERM | acc,0.5342140265127567,0.5201448970288455,0.5453176577242788,seed (split + initialisation),5.0,level,"fitting/split variability, not sampling variability"
+E10 D1 mitigation,ERM (gbdt) | acc,0.5016096326670586,0.4798884365746404,0.5193897576365635,seed (split + initialisation),5.0,level,"fitting/split variability, not sampling variability"
+E10 D1 mitigation,GroupDRO | acc,0.5150894826992073,0.5068270746271861,0.52513848453423,seed (split + initialisation),5.0,level,"fitting/split variability, not sampling variability"
+E10 D1 mitigation,"GroupDRO_approx (gbdt, v1) | acc",0.5061259660058411,0.4883335239655355,0.5210943081233302,seed (split + initialisation),5.0,level,"fitting/split variability, not sampling variability"
+E10 D1 mitigation,JTT | acc,0.5086480749417881,0.47951974948297993,0.530868974786479,seed (split + initialisation),5.0,level,"fitting/split variability, not sampling variability"
+E10 D1 mitigation,"JTT_approx (gbdt, v1) | acc",0.5114217453397876,0.49476547645317975,0.5294795948090794,seed (split + initialisation),5.0,level,"fitting/split variability, not sampling variability"
+E10 D1 mitigation,GroupDRO - ERM | acc,-0.0191245438135494,-0.0319539435057977,-0.0055260608228987,seed (paired split),5.0,difference,
+E10 D1 mitigation,GroupDRO - ERM | bacc,-0.0160051659427402,-0.0237359966739873,-0.008274335211493,seed (paired split),5.0,difference,
+E10 D1 mitigation,JTT - ERM | acc,-0.0255659515709687,-0.0529039762863551,-0.0006415458099793,seed (paired split),5.0,difference,
+E10 D1 mitigation,JTT - ERM | bacc,-0.0257076205415637,-0.0417794956936696,-0.0049082420517343,seed (paired split),5.0,difference,
+E6 D2 clock stump,"WAV, parseable time (n=118) | LOO | acc",0.847457627118644,0.771728055334007,0.901277675175785,"file (Wilson, files independent)",118.0,level,
+E6 D2 clock stump,"WAV, parseable time (n=118) | LOO | acc",0.847457627118644,0.7187057783018868,0.9607843137254902,logger,32.0,level,
+E6 D2 clock stump,"WAV, parseable time (n=118) | LOO | excess over majority",0.2542372881355932,0.0,0.5137614678899083,logger,32.0,level,
+E6 D2 clock stump,"WAV, parseable time (n=118) | logger_indep | acc",0.847457627118644,0.771728055334007,0.901277675175785,"file (Wilson, files independent)",118.0,level,
+E6 D2 clock stump,"WAV, parseable time (n=118) | logger_indep | acc",0.847457627118644,0.7187057783018868,0.9607843137254902,logger,32.0,level,
+E6 D2 clock stump,"WAV, parseable time (n=118) | logger_indep | excess over majority",0.2542372881355932,0.0,0.5137614678899083,logger,32.0,level,
+E6 D2 clock stump,"WAV, 03:30-04:30 (n=70) | LOO | acc",0.7428571428571429,0.6297386985284517,0.8307072425865616,"file (Wilson, files independent)",70.0,level,
+E6 D2 clock stump,"WAV, 03:30-04:30 (n=70) | LOO | acc",0.7428571428571429,0.5526315789473685,0.9178082191780822,logger,19.0,level,
+E6 D2 clock stump,"WAV, 03:30-04:30 (n=70) | LOO | excess over majority",0.0571428571428571,0.0149253731343283,0.1025641025641025,logger,19.0,level,
+E6 D2 clock stump,"WAV, 03:30-04:30 (n=70) | logger_indep | acc",0.7428571428571429,0.6297386985284517,0.8307072425865616,"file (Wilson, files independent)",70.0,level,
+E6 D2 clock stump,"WAV, 03:30-04:30 (n=70) | logger_indep | acc",0.7428571428571429,0.5526315789473685,0.9178082191780822,logger,19.0,level,
+E6 D2 clock stump,"WAV, 03:30-04:30 (n=70) | logger_indep | excess over majority",0.0571428571428571,0.0149253731343283,0.1025641025641025,logger,19.0,level,
+E7 D2 pretrained (v1 design),timed118 | AST | P1_naive | acc,0.925,0.8944444444444443,0.9555555555555554,seed (split + initialisation),10.0,level,"fitting/split variability, not sampling variability"
+E7 D2 pretrained (v1 design),timed118 | AST | P2_logger_indep | acc,0.8317924620510432,0.7634642230576439,0.8805668487754299,seed (split + initialisation),10.0,level,"fitting/split variability, not sampling variability"
+E7 D2 pretrained (v1 design),timed118 | HUBERT_BASE | P1_naive | acc,0.9083333333333334,0.8861111111111111,0.9305555555555556,seed (split + initialisation),10.0,level,"fitting/split variability, not sampling variability"
+E7 D2 pretrained (v1 design),timed118 | HUBERT_BASE | P2_logger_indep | acc,0.7651583647304471,0.696815516723297,0.8131604338029967,seed (split + initialisation),10.0,level,"fitting/split variability, not sampling variability"
+E7 D2 pretrained (v1 design),timed118 | Mel2023 | P1_naive | acc,0.8555555555555555,0.825,0.8888888888888887,seed (split + initialisation),10.0,level,"fitting/split variability, not sampling variability"
+E7 D2 pretrained (v1 design),timed118 | Mel2023 | P2_logger_indep | acc,0.7916043523389062,0.7132201342178459,0.8628867505005376,seed (split + initialisation),10.0,level,"fitting/split variability, not sampling variability"
+E7 D2 pretrained (v1 design),timed118 | WAV2VEC2_BASE | P1_naive | acc,0.8972222222222221,0.8722222222222221,0.9277777777777777,seed (split + initialisation),10.0,level,"fitting/split variability, not sampling variability"
+E7 D2 pretrained (v1 design),timed118 | WAV2VEC2_BASE | P2_logger_indep | acc,0.7937395266823184,0.7504502164502165,0.8344929235143195,seed (split + initialisation),10.0,level,"fitting/split variability, not sampling variability"
+E7 D2 pretrained (v1 design),wav140 | AST | P1_naive | acc,0.8619047619047621,0.8404761904761905,0.8857142857142856,seed (split + initialisation),10.0,level,"fitting/split variability, not sampling variability"
+E7 D2 pretrained (v1 design),wav140 | AST | P2_logger_indep | acc,0.7665042214760324,0.6944572228560733,0.8345832451176847,seed (split + initialisation),10.0,level,"fitting/split variability, not sampling variability"
+E7 D2 pretrained (v1 design),wav140 | HUBERT_BASE | P1_naive | acc,0.8499999999999999,0.8189880952380952,0.8833333333333332,seed (split + initialisation),10.0,level,"fitting/split variability, not sampling variability"
+E7 D2 pretrained (v1 design),wav140 | HUBERT_BASE | P2_logger_indep | acc,0.7884721895039083,0.719141174775998,0.8527037101913622,seed (split + initialisation),10.0,level,"fitting/split variability, not sampling variability"
+E7 D2 pretrained (v1 design),wav140 | Mel2023 | P1_naive | acc,0.7333333333333334,0.6904761904761905,0.7714285714285715,seed (split + initialisation),10.0,level,"fitting/split variability, not sampling variability"
+E7 D2 pretrained (v1 design),wav140 | Mel2023 | P2_logger_indep | acc,0.6745387807168373,0.6345324860492646,0.7125768913626057,seed (split + initialisation),10.0,level,"fitting/split variability, not sampling variability"
+E7 D2 pretrained (v1 design),wav140 | WAV2VEC2_BASE | P1_naive | acc,0.7857142857142857,0.7571428571428571,0.8166666666666667,seed (split + initialisation),10.0,level,"fitting/split variability, not sampling variability"
+E7 D2 pretrained (v1 design),wav140 | WAV2VEC2_BASE | P2_logger_indep | acc,0.7287665170891467,0.658213600230238,0.7926321511357605,seed (split + initialisation),10.0,level,"fitting/split variability, not sampling variability"
+E7 D2 pretrained (v1 design),timed118 | AST | naive - logger-indep,0.09320753794895671,0.024478288524341193,0.18053047391205285,seed (different splits per protocol),10.0,difference,splits of the two protocols differ; not a paired-unit test
+E7 D2 pretrained (v1 design),timed118 | HUBERT_BASE | naive - logger-indep,0.1431749686028862,0.07618332598624358,0.23077969000234444,seed (different splits per protocol),10.0,difference,splits of the two protocols differ; not a paired-unit test
+E7 D2 pretrained (v1 design),timed118 | Mel2023 | naive - logger-indep,0.06395120321664942,-0.020713916048355412,0.1579266129200911,seed (different splits per protocol),10.0,difference,splits of the two protocols differ; not a paired-unit test
+E7 D2 pretrained (v1 design),timed118 | WAV2VEC2_BASE | naive - logger-indep,0.10348269553990379,0.0471673861861505,0.16031356421356419,seed (different splits per protocol),10.0,difference,splits of the two protocols differ; not a paired-unit test
+E7 D2 pretrained (v1 design),wav140 | AST | naive - logger-indep,0.09540054042872949,0.030507165240006743,0.15927273992675622,seed (different splits per protocol),10.0,difference,splits of the two protocols differ; not a paired-unit test
+E7 D2 pretrained (v1 design),wav140 | HUBERT_BASE | naive - logger-indep,0.061527810496091705,-0.011460208906257508,0.1413331296839361,seed (different splits per protocol),10.0,difference,splits of the two protocols differ; not a paired-unit test
+E7 D2 pretrained (v1 design),wav140 | Mel2023 | naive - logger-indep,0.05879455261649595,-0.021322716965574102,0.13574485302013725,seed (different splits per protocol),10.0,difference,splits of the two protocols differ; not a paired-unit test
+E7 D2 pretrained (v1 design),wav140 | WAV2VEC2_BASE | naive - logger-indep,0.05694776862513895,-0.007493094207379933,0.1247788845145386,seed (different splits per protocol),10.0,difference,splits of the two protocols differ; not a paired-unit test
+E7 D2 acoustic vs clock,timed118 | AST | acc,0.861864406779661,0.7478260869565218,0.9444571865443424,logger,32.0,level,fold seed 0
+E7 D2 acoustic vs clock,timed118 | AST + clock | acc,0.8627118644067797,0.7478260869565218,0.9444571865443424,logger,32.0,level,fold seed 0
+E7 D2 acoustic vs clock,timed118 | HUBERT_BASE | acc,0.809322033898305,0.6829097333029406,0.9032538569424964,logger,32.0,level,fold seed 0
+E7 D2 acoustic vs clock,timed118 | HUBERT_BASE + clock | acc,0.8127118644067798,0.7,0.9196428571428572,logger,32.0,level,fold seed 0
+E7 D2 acoustic vs clock,timed118 | Mel2023 | acc,0.7796610169491526,0.6448097463284379,0.8761061946902655,logger,32.0,level,fold seed 0
+E7 D2 acoustic vs clock,timed118 | Mel2023 + clock | acc,0.8008474576271187,0.6439123376623377,0.8750297619047618,logger,32.0,level,fold seed 0
+E7 D2 acoustic vs clock,timed118 | WAV2VEC2_BASE | acc,0.8271186440677966,0.6860382059800665,0.9126232855601788,logger,32.0,level,fold seed 0
+E7 D2 acoustic vs clock,timed118 | WAV2VEC2_BASE + clock | acc,0.8338983050847457,0.7078994152970923,0.9224806201550388,logger,32.0,level,fold seed 0
+E7 D2 acoustic vs clock,timed118 | clock (hour stump) | acc,0.8474576271186439,0.7187057783018868,0.9607843137254902,logger,32.0,level,fold seed 0
+E7 D2 acoustic vs clock,early_0330_0430 | AST | acc,0.8871428571428572,0.6614473684210527,0.9714285714285714,logger,19.0,level,fold seed 0
+E7 D2 acoustic vs clock,early_0330_0430 | AST + clock | acc,0.8857142857142858,0.6614473684210527,0.9714285714285714,logger,19.0,level,fold seed 0
+E7 D2 acoustic vs clock,early_0330_0430 | HUBERT_BASE | acc,0.8885714285714286,0.6774069478908188,0.9855072463768116,logger,19.0,level,fold seed 0
+E7 D2 acoustic vs clock,early_0330_0430 | HUBERT_BASE + clock | acc,0.8885714285714286,0.6774069478908188,0.9855072463768116,logger,19.0,level,fold seed 0
+E7 D2 acoustic vs clock,early_0330_0430 | Mel2023 | acc,0.7585714285714286,0.647887323943662,0.9315068493150684,logger,19.0,level,fold seed 0
+E7 D2 acoustic vs clock,early_0330_0430 | Mel2023 + clock | acc,0.76,0.6943910256410256,0.9436815336463222,logger,19.0,level,fold seed 0
+E7 D2 acoustic vs clock,early_0330_0430 | WAV2VEC2_BASE | acc,0.8671428571428571,0.6446898496240602,0.9565217391304348,logger,19.0,level,fold seed 0
+E7 D2 acoustic vs clock,early_0330_0430 | WAV2VEC2_BASE + clock | acc,0.8671428571428571,0.6446898496240602,0.9565217391304348,logger,19.0,level,fold seed 0
+E7 D2 acoustic vs clock,early_0330_0430 | clock (hour stump) | acc,0.7428571428571429,0.5526315789473685,0.9178082191780822,logger,19.0,level,fold seed 0
+E7 D2 acoustic vs clock,timed118 | Mel2023 - clock | acc,-0.0762711864406778,-0.2441565095458957,0.0973571565986917,logger,32.0,difference,
+E7 D2 acoustic vs clock,timed118 | Mel2023 - clock | bacc,-0.1232142857142857,-0.276570172210774,0.041836709486166,logger,32.0,difference,
+E7 D2 acoustic vs clock,timed118 | Mel2023 + clock - clock | acc,-0.0762711864406778,-0.2416929611650485,0.084033613445378,logger,32.0,difference,
+E7 D2 acoustic vs clock,timed118 | Mel2023 + clock - clock | bacc,-0.1232142857142857,-0.2702879533822875,0.0350404040404037,logger,32.0,difference,
+E7 D2 acoustic vs clock,timed118 | WAV2VEC2_BASE - clock | acc,-0.0423728813559322,-0.2187574404761904,0.1482055063913467,logger,32.0,difference,
+E7 D2 acoustic vs clock,timed118 | WAV2VEC2_BASE - clock | bacc,-0.0880952380952381,-0.2562530637254903,0.099833606036632,logger,32.0,difference,
+E7 D2 acoustic vs clock,timed118 | WAV2VEC2_BASE + clock - clock | acc,-0.0254237288135592,-0.2018394958761931,0.1613278319579892,logger,32.0,difference,
+E7 D2 acoustic vs clock,timed118 | WAV2VEC2_BASE + clock - clock | bacc,-0.0672619047619047,-0.2300052083333333,0.1184328888704845,logger,32.0,difference,
+E7 D2 acoustic vs clock,timed118 | HUBERT_BASE - clock | acc,-0.0423728813559322,-0.2222470238095238,0.1443506817426005,logger,32.0,difference,
+E7 D2 acoustic vs clock,timed118 | HUBERT_BASE - clock | bacc,-0.0946428571428571,-0.2658114035087718,0.0775893811815022,logger,32.0,difference,
+E7 D2 acoustic vs clock,timed118 | HUBERT_BASE + clock - clock | acc,-0.0254237288135592,-0.2016164402942841,0.1596817028698271,logger,32.0,difference,
+E7 D2 acoustic vs clock,timed118 | HUBERT_BASE + clock - clock | bacc,-0.0803571428571428,-0.2457342195273631,0.0931742086038959,logger,32.0,difference,
+E7 D2 acoustic vs clock,timed118 | AST - clock | acc,0.0084745762711865,-0.1558696205755028,0.1808752417794969,logger,32.0,difference,
+E7 D2 acoustic vs clock,timed118 | AST - clock | bacc,-0.0354166666666666,-0.1915194746376811,0.1333333333333333,logger,32.0,difference,
+E7 D2 acoustic vs clock,timed118 | AST + clock - clock | acc,0.0084745762711865,-0.1558696205755028,0.1808752417794969,logger,32.0,difference,
+E7 D2 acoustic vs clock,timed118 | AST + clock - clock | bacc,-0.0354166666666666,-0.1915194746376811,0.1333333333333333,logger,32.0,difference,
+E7 D2 acoustic vs clock,early_0330_0430 | Mel2023 - clock | acc,0.0571428571428571,-0.1999999999999999,0.2857142857142857,logger,19.0,difference,
+E7 D2 acoustic vs clock,early_0330_0430 | Mel2023 - clock | bacc,0.2263257575757575,0.1071177383997077,0.3347337962962962,logger,19.0,difference,
+E7 D2 acoustic vs clock,early_0330_0430 | Mel2023 + clock - clock | acc,0.0857142857142857,-0.1613564251718668,0.3014014059120402,logger,19.0,difference,
+E7 D2 acoustic vs clock,early_0330_0430 | Mel2023 + clock - clock | bacc,0.2471590909090909,0.1357801535087718,0.3431931818181817,logger,19.0,difference,
+E7 D2 acoustic vs clock,early_0330_0430 | WAV2VEC2_BASE - clock | acc,0.0714285714285714,-0.1904936974789915,0.3205128205128205,logger,19.0,difference,
+E7 D2 acoustic vs clock,early_0330_0430 | WAV2VEC2_BASE - clock | bacc,0.2367424242424242,0.0703696514837819,0.3562661637931034,logger,19.0,difference,
+E7 D2 acoustic vs clock,early_0330_0430 | WAV2VEC2_BASE + clock - clock | acc,0.0714285714285714,-0.1904936974789915,0.3205128205128205,logger,19.0,difference,
+E7 D2 acoustic vs clock,early_0330_0430 | WAV2VEC2_BASE + clock - clock | bacc,0.2367424242424242,0.0703696514837819,0.3562661637931034,logger,19.0,difference,
+E7 D2 acoustic vs clock,early_0330_0430 | HUBERT_BASE - clock | acc,0.0999999999999999,-0.1666666666666667,0.3375040584415584,logger,19.0,difference,
+E7 D2 acoustic vs clock,early_0330_0430 | HUBERT_BASE - clock | bacc,0.2575757575757575,0.0962338838697535,0.375,logger,19.0,difference,
+E7 D2 acoustic vs clock,early_0330_0430 | HUBERT_BASE + clock - clock | acc,0.0999999999999999,-0.1666666666666667,0.3375040584415584,logger,19.0,difference,
+E7 D2 acoustic vs clock,early_0330_0430 | HUBERT_BASE + clock - clock | bacc,0.2575757575757575,0.0962338838697535,0.375,logger,19.0,difference,
+E7 D2 acoustic vs clock,early_0330_0430 | AST - clock | acc,0.0857142857142857,-0.1846875,0.3457037037037035,logger,19.0,difference,
+E7 D2 acoustic vs clock,early_0330_0430 | AST - clock | bacc,0.2594696969696969,0.0975716845878135,0.3772727272727273,logger,19.0,difference,
+E7 D2 acoustic vs clock,early_0330_0430 | AST + clock - clock | acc,0.0857142857142857,-0.1846875,0.3457037037037035,logger,19.0,difference,
+E7 D2 acoustic vs clock,early_0330_0430 | AST + clock - clock | bacc,0.2594696969696969,0.0975716845878135,0.3772727272727273,logger,19.0,difference,
+E5 D3 v1 design,S1_segment_random | acc,0.9874074074074073,0.9855555555555556,0.9892592592592593,seed (split + initialisation),10.0,level,"fitting/split variability, not sampling variability"
+E5 D3 v1 design,S2_recording_indep | acc,0.9051851851851852,0.8758287037037036,0.9316666666666666,seed (split + initialisation),10.0,level,"fitting/split variability, not sampling variability"
+E5 D3 v1 design,S3_condition_indep_v1 | acc,0.595,0.49296296296296294,0.6599999999999999,seed (split + initialisation),5.0,level,"fitting/split variability, not sampling variability"
+E5 D3 OOF,pcm32 | S1_segment_random | acc,0.9872222222222222,0.9783333333333334,0.9938958333333332,physical run,60.0,level,"init sd=0.0000, split sd=0.0010"
+E5 D3 OOF,pcm32 | S2_recording_indep | acc,0.9266666666666666,0.8880555555555556,0.9600069444444445,physical run,60.0,level,"init sd=0.0000, split sd=0.0077"
+E5 D3 OOF,pcm32 | S2b_run_indep | acc,0.9358333333333332,0.8997013888888888,0.9686111111111112,physical run,60.0,level,"init sd=0.0000, split sd=0.0172"
+E5 D3 OOF,pcm32 | S3_opcond_LOCO | acc,0.9358333333333332,0.8986041666666666,0.9677777777777776,physical run,60.0,level,"init sd=0.0000, split sd=0.0000"
+E5 D3 OOF,pcm32 | S3_topology_LOTO | acc,0.8025,0.7047222222222222,0.8980625,physical run,60.0,level,"init sd=0.0000, split sd=0.0000"
+E5 D3 OOF,S1_segment_random -> S2_recording_indep | drop in acc,0.0605555555555555,0.0294375,0.0963958333333332,physical run,60.0,difference,
+E5 D3 OOF,S1_segment_random -> S2_recording_indep | drop in bacc,0.1279513888888888,0.0742200665272473,0.1878540305010894,physical run,60.0,difference,
+E5 D3 OOF,S1_segment_random -> S2_recording_indep | drop in excess,0.0605555555555555,0.0294375,0.0963958333333332,physical run,60.0,difference,
+E5 D3 OOF,S2_recording_indep -> S2b_run_indep | drop in acc,-0.0091666666666666,-0.0258333333333333,0.0063888888888888,physical run,60.0,difference,
+E5 D3 OOF,S2_recording_indep -> S2b_run_indep | drop in bacc,-0.0135416666666666,-0.0406703146374827,0.014521408442604,physical run,60.0,difference,
+E5 D3 OOF,S2_recording_indep -> S2b_run_indep | drop in excess,-0.0091666666666666,-0.0258333333333333,0.0063888888888888,physical run,60.0,difference,
+E5 D3 OOF,S2b_run_indep -> S3_opcond_LOCO | drop in acc,0.0,-0.0141666666666666,0.014173611111111,physical run,60.0,difference,
+E5 D3 OOF,S2b_run_indep -> S3_opcond_LOCO | drop in bacc,-0.0015625,-0.0287099927259502,0.0273268995098039,physical run,60.0,difference,
+E5 D3 OOF,S2b_run_indep -> S3_opcond_LOCO | drop in excess,0.0,-0.0141666666666666,0.014173611111111,physical run,60.0,difference,
+E5 D3 OOF,S2b_run_indep -> S3_topology_LOTO | drop in acc,0.1333333333333333,0.0624930555555555,0.2080902777777775,physical run,60.0,difference,
+E5 D3 OOF,S2b_run_indep -> S3_topology_LOTO | drop in bacc,0.3489583333333333,0.2921583670915887,0.4033680555555555,physical run,60.0,difference,
+E5 D3 OOF,S2b_run_indep -> S3_topology_LOTO | drop in excess,0.1333333333333333,0.0624930555555555,0.2080902777777775,physical run,60.0,difference,
+E8 D3 window heuristic,first | condition_indep_v1 | acc,0.6222222222222222,0.588888888888889,0.6555555555555554,seed (split + initialisation),5.0,level,"fitting/split variability, not sampling variability"
+E8 D3 window heuristic,first | naive | acc,0.8027777777777778,0.775,0.8277777777777778,seed (split + initialisation),10.0,level,"fitting/split variability, not sampling variability"
+E8 D3 window heuristic,first | opcond_LOCO | acc,0.8333333333333334,0.8333333333333334,0.8333333333333334,seed (split + initialisation),10.0,level,"fitting/split variability, not sampling variability"
+E8 D3 window heuristic,full | condition_indep_v1 | acc,0.6722222222222223,0.6666666666666666,0.6833333333333333,seed (split + initialisation),5.0,level,"fitting/split variability, not sampling variability"
+E8 D3 window heuristic,full | naive | acc,0.7944444444444444,0.7666666666666666,0.8166666666666667,seed (split + initialisation),10.0,level,"fitting/split variability, not sampling variability"
+E8 D3 window heuristic,full | opcond_LOCO | acc,0.825,0.825,0.825,seed (split + initialisation),10.0,level,"fitting/split variability, not sampling variability"
+E8 D3 window heuristic,minstd | condition_indep_v1 | acc,0.6166666666666667,0.6,0.6333333333333333,seed (split + initialisation),5.0,level,"fitting/split variability, not sampling variability"
+E8 D3 window heuristic,minstd | naive | acc,0.8111111111111111,0.7861111111111112,0.8333333333333334,seed (split + initialisation),10.0,level,"fitting/split variability, not sampling variability"
+E8 D3 window heuristic,minstd | opcond_LOCO | acc,0.8583333333333332,0.8583333333333332,0.8583333333333332,seed (split + initialisation),10.0,level,"fitting/split variability, not sampling variability"
+E8 D3 window heuristic,random | condition_indep_v1 | acc,0.6333333333333333,0.5777777777777777,0.6666666666666666,seed (split + initialisation),5.0,level,"fitting/split variability, not sampling variability"
+E8 D3 window heuristic,random | naive | acc,0.8027777777777778,0.7777777777777779,0.825,seed (split + initialisation),10.0,level,"fitting/split variability, not sampling variability"
+E8 D3 window heuristic,random | opcond_LOCO | acc,0.8333333333333334,0.8333333333333334,0.8333333333333334,seed (split + initialisation),10.0,level,"fitting/split variability, not sampling variability"
+E8 D3 window heuristic,minstd - random (opcond LOCO),0.02499999999999991,-0.041666666666666664,0.09166666666666666,physical run,60.0,difference,

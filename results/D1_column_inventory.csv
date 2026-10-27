@@ -1,0 +1,11 @@
+file,n_columns,n_freq_bins,n_max_cols,n_other,other_columns
+1.옥외누수(out-training).csv,539,513,20,6,site|sid|ldate|lrate|llevel|leaktype
+1.옥외누수(out-validation).csv,539,513,20,6,site|sid|ldate|lrate|llevel|leaktype
+2.옥내누수(in-training).csv,539,513,20,6,site|sid|ldate|lrate|llevel|leaktype
+2.옥내누수(in-validation).csv,539,513,20,6,site|sid|ldate|lrate|llevel|leaktype
+3.기계.전기음(noise-training).csv,539,513,20,6,site|sid|ldate|lrate|llevel|leaktype
+3.기계.전기음(noise-validation).csv,539,513,20,6,site|sid|ldate|lrate|llevel|leaktype
+4.환경음(other-training).csv,539,513,20,6,site|sid|ldate|lrate|llevel|leaktype
+4.환경음(other-validation).csv,539,513,20,6,site|sid|ldate|lrate|llevel|leaktype
+5.정상음(normal-training).csv,539,513,20,6,site|sid|ldate|lrate|llevel|leaktype
+5.정상음(normal-validation).csv,539,513,20,6,site|sid|ldate|lrate|llevel|leaktype

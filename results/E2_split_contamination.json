@@ -1,4 +1,6 @@
 {
   "site_overlap_rate": 1.0,
-  "sid_overlap_rate": 0.9950127877237852
+  "sid_overlap_rate": 0.9950127877237852,
+  "n_train": 62564,
+  "n_val": 7820
 }

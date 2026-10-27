@@ -1,8 +1,54 @@
 {
   "n": 118,
   "acc_hour_loo": 0.847457627118644,
-  "acc_hour_grouped": 0.8471014492753624,
+  "acc_hour_grouped": 0.847457627118644,
   "baseline": 0.5932203389830508,
+  "loo_wilson": [
+    0.771728055334007,
+    0.901277675175785
+  ],
+  "loo_logger_boot": [
+    0.7187057783018868,
+    0.9607843137254902
+  ],
+  "grouped_logger_boot": [
+    0.7187057783018868,
+    0.9607843137254902
+  ],
   "mean_hour_leak": 3.8333333333333335,
-  "mean_hour_noleak": 10.188333333333333
+  "mean_hour_noleak": 10.188333333333333,
+  "early_window": {
+    "LOO": {
+      "population": "WAV, 03:30-04:30 (n=70)",
+      "protocol": "LOO",
+      "n": 70,
+      "acc": 0.7428571428571429,
+      "wilson_lo": 0.6297386985284517,
+      "wilson_hi": 0.8307072425865616,
+      "logger_boot_lo": 0.5526315789473685,
+      "logger_boot_hi": 0.9178082191780822,
+      "n_loggers": 19,
+      "baseline": 0.6857142857142857,
+      "excess": 0.05714285714285716,
+      "excess_lo": 0.014925373134328398,
+      "excess_hi": 0.10256410256410253,
+      "full_data_threshold_h": 4.375
+    },
+    "logger_indep": {
+      "population": "WAV, 03:30-04:30 (n=70)",
+      "protocol": "logger_indep",
+      "n": 70,
+      "acc": 0.7428571428571429,
+      "wilson_lo": 0.6297386985284517,
+      "wilson_hi": 0.8307072425865616,
+      "logger_boot_lo": 0.5526315789473685,
+      "logger_boot_hi": 0.9178082191780822,
+      "n_loggers": 19,
+      "baseline": 0.6857142857142857,
+      "excess": 0.05714285714285716,
+      "excess_lo": 0.014925373134328398,
+      "excess_hi": 0.10256410256410253,
+      "full_data_threshold_h": 4.375
+    }
+  }
 }

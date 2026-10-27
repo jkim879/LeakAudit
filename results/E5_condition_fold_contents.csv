@@ -1,0 +1,9 @@
+policy,fold,held_out,n_train,n_test,train_classes,test_classes,train_topologies,train_opconds,train_leaktypes
+S3_opcond_LOCO,0,0.18_N,3000,600,"{'leak': np.int64(2400), 'noleak': np.int64(600)}","{'leak': np.int64(480), 'noleak': np.int64(120)}","BR,LO",5,"CC,GL,LC,NL,OL"
+S3_opcond_LOCO,1,0.47_N,3000,600,"{'leak': np.int64(2400), 'noleak': np.int64(600)}","{'leak': np.int64(480), 'noleak': np.int64(120)}","BR,LO",5,"CC,GL,LC,NL,OL"
+S3_opcond_LOCO,2,ND_N,3000,600,"{'leak': np.int64(2400), 'noleak': np.int64(600)}","{'leak': np.int64(480), 'noleak': np.int64(120)}","BR,LO",5,"CC,GL,LC,NL,OL"
+S3_opcond_LOCO,3,ND_NN,3000,600,"{'leak': np.int64(2400), 'noleak': np.int64(600)}","{'leak': np.int64(480), 'noleak': np.int64(120)}","BR,LO",5,"CC,GL,LC,NL,OL"
+S3_opcond_LOCO,4,TRANSIENT_N,3000,600,"{'leak': np.int64(2400), 'noleak': np.int64(600)}","{'leak': np.int64(480), 'noleak': np.int64(120)}","BR,LO",5,"CC,GL,LC,NL,OL"
+S3_opcond_LOCO,5,TRANSIENT_NN,3000,600,"{'leak': np.int64(2400), 'noleak': np.int64(600)}","{'leak': np.int64(480), 'noleak': np.int64(120)}","BR,LO",5,"CC,GL,LC,NL,OL"
+S3_topology_LOTO,0,BR,1800,1800,"{'leak': np.int64(1440), 'noleak': np.int64(360)}","{'leak': np.int64(1440), 'noleak': np.int64(360)}",LO,6,"CC,GL,LC,NL,OL"
+S3_topology_LOTO,1,LO,1800,1800,"{'leak': np.int64(1440), 'noleak': np.int64(360)}","{'leak': np.int64(1440), 'noleak': np.int64(360)}",BR,6,"CC,GL,LC,NL,OL"

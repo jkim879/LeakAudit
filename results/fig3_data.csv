@@ -1,0 +1,7 @@
+dataset,task,unit_held_out,sfb_predictor,sfb_protocol,sfb,majority,sfb_margin,sfb_lo,sfb_hi,insample_ceiling,n,acoustic_model,acoustic_acc,acoustic_lo,acoustic_hi,bench
+D1,5-class,sites,lrate (device),site-independent,0.5952631279836327,0.31492952943850877,0.2803335985451239,0.43298768244065233,0.7422163200636668,1.0,70384,acoustic: 513 bins,0.520203455330757,0.3680433087426503,0.6589511613220376,"D1 (5-class)
+held out: sites"
+D2,leak/no-leak,loggers,recording hour,logger-independent,0.847457627118644,0.5932203389830508,0.2542372881355932,0.7187057783018868,0.9607843137254902,1.0,118,AST,0.861864406779661,0.7478260869565218,0.9444571865443424,"D2 (leak/no-leak)
+held out: loggers"
+D3,leak/no-leak,runs,all metadata,run-independent,0.8,0.8,0.0,0.7,0.9,0.8,120,acoustic: 199 mel features,0.9358333333333332,0.8997013888888888,0.9686111111111112,"D3 (leak/no-leak)
+held out: runs"

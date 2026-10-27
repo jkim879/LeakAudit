@@ -1,17 +1,3 @@
-"""
-Acoustic feature extraction reproducing the 2023 deployed pipeline.
-
-The pipeline has three stages, each retained here so that the audit can vary
-them one at a time:
-
-1. Butterworth band-pass filtering (:func:`bandpass`).
-2. One-second window selection (:func:`pick_window`), including the original
-   *minimum-standard-deviation* heuristic that Experiment 08 scrutinises.
-3. Mel-spectrogram summarisation to a fixed-length vector
-   (:func:`summary_features`), plus a handful of spectral descriptors.
-
-British English spelling is used throughout ('normalise', 'summarise').
-"""
 from __future__ import annotations
 import numpy as np
 from scipy import signal
@@ -20,12 +6,7 @@ from . import config as cfg
 
 
 def bandpass(x, sr, lo=cfg.BPF_LOW_HZ, hi=cfg.BPF_HIGH_HZ, order=5):
-    """Zero-phase Butterworth band-pass filter.
 
-    The upper corner is clipped to just below the Nyquist frequency, because
-    the Hong Kong recordings are sampled at 4096 Hz (Nyquist = 2048 Hz), so a
-    nominal 5000 Hz corner is not attainable there.
-    """
     nyq = sr / 2.0
     hi_ = min(hi, nyq * 0.99)
     if lo >= hi_:
@@ -35,18 +16,7 @@ def bandpass(x, sr, lo=cfg.BPF_LOW_HZ, hi=cfg.BPF_HIGH_HZ, order=5):
 
 
 def pick_window(x, sr, sec=1.0, mode="minstd", seed=0):
-    """Select a one-second analysis window from a longer clip.
 
-    Parameters
-    ----------
-    mode : {'minstd', 'random', 'first', 'full'}
-        * ``minstd`` -- the 2023 heuristic: slide a one-second window and keep
-          the position with the lowest standard deviation. Experiment 08 tests
-          whether this helps or is a selection bias.
-        * ``random`` -- a random one-second window (control).
-        * ``first``  -- the first second (control).
-        * ``full``   -- return the whole clip unchanged (control).
-    """
     n = int(sec * sr)
     if mode == "full" or len(x) <= n:
         return x
@@ -75,13 +45,7 @@ def _mel_db(x, sr, n_mels=cfg.N_MELS):
 
 
 def summary_features(x, sr, n_mels=cfg.N_MELS):
-    """Summarise a waveform as a fixed-length feature vector.
 
-    The vector concatenates the per-band mean and standard deviation of the
-    mel-spectrogram with seven global spectral descriptors (centroid, spread,
-    entropy, 85 % roll-off, zero-crossing rate, RMS and mean absolute
-    amplitude). Length = 2 * n_mels + 7.
-    """
     D = _mel_db(x, sr, n_mels)
     mel_stats = np.concatenate([D.mean(axis=1), D.std(axis=1)])
 
@@ -101,3 +65,18 @@ def summary_features(x, sr, n_mels=cfg.N_MELS):
 
 
 FEATURE_DIM = 2 * cfg.N_MELS + 7
+
+DESCRIPTOR_NAMES = ["spec_centroid_hz", "spec_spread_hz", "spec_entropy",
+                    "rolloff85_hz", "zero_crossing_rate", "rms", "mean_abs"]
+
+
+def feature_names(n_mels=cfg.N_MELS):
+    """Names of the 2 * n_mels + 7 summary features, in order."""
+    return ([f"mel{i:02d}_mean_db" for i in range(n_mels)]
+            + [f"mel{i:02d}_std_db" for i in range(n_mels)]
+            + DESCRIPTOR_NAMES)
+
+
+def effective_band(sr, lo=cfg.BPF_LOW_HZ, hi=cfg.BPF_HIGH_HZ):
+    """(low, high) corner actually applied by :func:`bandpass` at rate ``sr``."""
+    return float(lo), float(min(hi, sr / 2.0 * 0.99))

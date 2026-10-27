@@ -1,0 +1,61 @@
+decoding,protocol,seed,held_out,n_train,n_test,usable,reason
+pcm32,S1_segment_random,0,,2520,1080,True,
+pcm32,S2_recording_indep,0,,2520,1080,True,
+pcm32,S3_condition_indep_v1,0,"BR_LC,BR_OL,LO_NL",2520,1080,True,
+pcm32,S1_segment_random,1,,2520,1080,True,
+pcm32,S2_recording_indep,1,,2520,1080,True,
+pcm32,S3_condition_indep_v1,1,"BR_LC,LO_GL,LO_OL",2520,1080,False,no no-leak segment in test
+pcm32,S1_segment_random,2,,2520,1080,True,
+pcm32,S2_recording_indep,2,,2520,1080,True,
+pcm32,S3_condition_indep_v1,2,"BR_GL,BR_OL,LO_CC",2520,1080,False,no no-leak segment in test
+pcm32,S1_segment_random,3,,2520,1080,True,
+pcm32,S2_recording_indep,3,,2520,1080,True,
+pcm32,S3_condition_indep_v1,3,"BR_GL,BR_OL,LO_CC",2520,1080,False,no no-leak segment in test
+pcm32,S1_segment_random,4,,2520,1080,True,
+pcm32,S2_recording_indep,4,,2520,1080,True,
+pcm32,S3_condition_indep_v1,4,"BR_NL,BR_OL,LO_NL",2520,1080,False,no no-leak segment in train
+pcm32,S1_segment_random,5,,2520,1080,True,
+pcm32,S2_recording_indep,5,,2520,1080,True,
+pcm32,S3_condition_indep_v1,5,"BR_LC,LO_CC,LO_OL",2520,1080,False,no no-leak segment in test
+pcm32,S1_segment_random,6,,2520,1080,True,
+pcm32,S2_recording_indep,6,,2520,1080,True,
+pcm32,S3_condition_indep_v1,6,"BR_GL,LO_LC,LO_NL",2520,1080,True,
+pcm32,S1_segment_random,7,,2520,1080,True,
+pcm32,S2_recording_indep,7,,2520,1080,True,
+pcm32,S3_condition_indep_v1,7,"BR_CC,LO_CC,LO_NL",2520,1080,True,
+pcm32,S1_segment_random,8,,2520,1080,True,
+pcm32,S2_recording_indep,8,,2520,1080,True,
+pcm32,S3_condition_indep_v1,8,"LO_GL,LO_NL,LO_OL",2520,1080,True,
+pcm32,S1_segment_random,9,,2520,1080,True,
+pcm32,S2_recording_indep,9,,2520,1080,True,
+pcm32,S3_condition_indep_v1,9,"BR_OL,LO_LC,LO_NL",2520,1080,True,
+int16_legacy,S1_segment_random,0,,2520,1080,True,
+int16_legacy,S2_recording_indep,0,,2520,1080,True,
+int16_legacy,S3_condition_indep_v1,0,"BR_LC,BR_OL,LO_NL",2520,1080,True,
+int16_legacy,S1_segment_random,1,,2520,1080,True,
+int16_legacy,S2_recording_indep,1,,2520,1080,True,
+int16_legacy,S3_condition_indep_v1,1,"BR_LC,LO_GL,LO_OL",2520,1080,False,no no-leak segment in test
+int16_legacy,S1_segment_random,2,,2520,1080,True,
+int16_legacy,S2_recording_indep,2,,2520,1080,True,
+int16_legacy,S3_condition_indep_v1,2,"BR_GL,BR_OL,LO_CC",2520,1080,False,no no-leak segment in test
+int16_legacy,S1_segment_random,3,,2520,1080,True,
+int16_legacy,S2_recording_indep,3,,2520,1080,True,
+int16_legacy,S3_condition_indep_v1,3,"BR_GL,BR_OL,LO_CC",2520,1080,False,no no-leak segment in test
+int16_legacy,S1_segment_random,4,,2520,1080,True,
+int16_legacy,S2_recording_indep,4,,2520,1080,True,
+int16_legacy,S3_condition_indep_v1,4,"BR_NL,BR_OL,LO_NL",2520,1080,False,no no-leak segment in train
+int16_legacy,S1_segment_random,5,,2520,1080,True,
+int16_legacy,S2_recording_indep,5,,2520,1080,True,
+int16_legacy,S3_condition_indep_v1,5,"BR_LC,LO_CC,LO_OL",2520,1080,False,no no-leak segment in test
+int16_legacy,S1_segment_random,6,,2520,1080,True,
+int16_legacy,S2_recording_indep,6,,2520,1080,True,
+int16_legacy,S3_condition_indep_v1,6,"BR_GL,LO_LC,LO_NL",2520,1080,True,
+int16_legacy,S1_segment_random,7,,2520,1080,True,
+int16_legacy,S2_recording_indep,7,,2520,1080,True,
+int16_legacy,S3_condition_indep_v1,7,"BR_CC,LO_CC,LO_NL",2520,1080,True,
+int16_legacy,S1_segment_random,8,,2520,1080,True,
+int16_legacy,S2_recording_indep,8,,2520,1080,True,
+int16_legacy,S3_condition_indep_v1,8,"LO_GL,LO_NL,LO_OL",2520,1080,True,
+int16_legacy,S1_segment_random,9,,2520,1080,True,
+int16_legacy,S2_recording_indep,9,,2520,1080,True,
+int16_legacy,S3_condition_indep_v1,9,"BR_OL,LO_LC,LO_NL",2520,1080,True,

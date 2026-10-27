@@ -1,21 +1,52 @@
-dataset,task,predictor,protocol,sfb,baseline,n,above_baseline,note
-D1,5-class,sensor id,in-sample,1.0,0.31492952943850877,70384,0.6850704705614912,
-D1,5-class,site id,in-sample,0.654992611957263,0.31492952943850877,70384,0.3400630825187542,
-D1,5-class,sensor id,site-indep,0.31714562149861597,0.31492952943850877,70384,0.0022160920601072,
-D1,5-class,lrate (device),site-indep,0.5952809318213348,0.31492952943850877,70384,0.280351402382826,
-D1,5-class,llevel (device),site-indep,0.3937713310316375,0.31492952943850877,70384,0.0788418015931287,
-D1,5-class,all metadata,site-indep,0.5685824512059894,0.31492952943850877,70384,0.2536529217674806,
-D1,leak/non-leak,sensor id,in-sample,1.0,0.5075159127074335,70384,0.49248408729256654,
-D1,leak/non-leak,lrate (device),site-indep,0.8074227248031723,0.5075159127074335,70384,0.2999068120957389,
-D2,leak/no-leak,recording hour,leave-one-out,0.847457627118644,0.5932203389830508,118,0.2542372881355932,
-D2,leak/no-leak,recording hour,logger-indep,0.8471014492753624,0.5932203389830508,118,0.25388111029231153,
-D2,leak/no-leak,logger id,in-sample,1.0,0.5932203389830508,118,0.4067796610169492,
-D2,leak/no-leak,hour + material,logger-indep,0.8471014492753624,0.5932203389830508,118,0.25388111029231153,
-D2,leak/no-leak,recording date,logger-indep,0.919047619047619,0.7894736842105263,38,0.12957393483709267,
-D3,leak/no-leak,topology,in-sample,0.8,0.8,280,0.0,
-D3,leak/no-leak,flow,in-sample,0.8,0.8,280,0.0,
-D3,leak/no-leak,noise,in-sample,0.8,0.8,280,0.0,
-D3,leak/no-leak,sensor,in-sample,0.8,0.8,280,0.0,
-D3,leak/no-leak,modality,in-sample,0.8,0.8,280,0.0,
-D3,leak/no-leak,all metadata,in-sample,0.8,0.8,280,0.0,
-D3,leak/no-leak,all metadata,condition-indep,0.8,0.8,280,0.0,
+dataset,task,predictor,protocol,sfb,sfb_v1_foldmean,baseline,margin,n,note,lo,hi,interval_unit,n_groups
+D1,5-class,sensor id,in-sample (ceiling),1.0,1.0,0.31492952943850877,0.6850704705614912,70384,,,,,
+D1,5-class,site id,in-sample (ceiling),0.654992611957263,0.654992611957263,0.31492952943850877,0.3400630825187542,70384,,,,,
+D1,5-class,sensor id,site-independent,0.08524664696521937,0.08524508863893566,0.31492952943850877,-0.22968288247328938,70384,"every test sensor is unseen, so the lookup falls back to the training-fold majority class; its score depends only on how the class mix differs between sites",0.028957291929973247,0.17761430386196939,site,49.0
+D1,5-class,lrate (device),site-independent,0.5952631279836327,0.5952809318213348,0.31492952943850877,0.2803335985451239,70384,,0.43298768244065233,0.7422163200636668,site,49.0
+D1,5-class,llevel (device),site-independent,0.39376847010684246,0.3937713310316375,0.31492952943850877,0.07883894066833369,70384,,0.333563584445274,0.46015971010444384,site,49.0
+D1,5-class,acquisition date,site-independent,0.43382018640600134,0.43383541799786574,0.31492952943850877,0.11889065696749257,70384,,0.278253260692297,0.571369787492846,site,49.0
+D1,5-class,all metadata,site-independent,0.5685667197090247,0.5685824512059894,0.31492952943850877,0.25363719027051596,70384,"v1 definition: lrate, llevel, sensor and site codes; depth-3 tree",0.39395902122625065,0.723397351506295,site,49.0
+D1,leak/non-leak,sensor id,in-sample (ceiling),1.0,1.0,0.5075159127074335,0.49248408729256654,70384,,,,,
+D1,leak/non-leak,site id,in-sample (ceiling),0.8279580586496931,0.8279580586496931,0.5075159127074335,0.3204421459422596,70384,,,,,
+D1,leak/non-leak,sensor id,site-independent,0.25868095021595816,0.2586678345284809,0.5075159127074335,-0.2488349624914753,70384,"every test sensor is unseen, so the lookup falls back to the training-fold majority class; its score depends only on how the class mix differs between sites",0.158063654864878,0.40772889477958507,site,49.0
+D1,leak/non-leak,lrate (device),site-independent,0.8074136167310753,0.8074227248031723,0.5075159127074335,0.2998977040236418,70384,,0.7032666039188123,0.8881650534904455,site,49.0
+D1,leak/non-leak,llevel (device),site-independent,0.5993975903614458,0.5993933582557769,0.5075159127074335,0.09188167765401234,70384,,0.5297189777533965,0.6815831140745279,site,49.0
+D1,leak/non-leak,acquisition date,site-independent,0.682541486701523,0.6825336810524566,0.5075159127074335,0.17502557399408958,70384,,0.5667440670979057,0.7622004412736325,site,49.0
+D1,leak/non-leak,all metadata,site-independent,0.7818396226415094,0.7818454601495312,0.5075159127074335,0.27432370993407595,70384,"v1 definition: lrate, llevel, sensor and site codes; depth-3 tree",0.6751430566632438,0.8686376643983365,site,49.0
+D1,alarm/normal,sensor id,in-sample (ceiling),1.0,1.0,0.6850704705614913,0.3149295294385087,70384,,,,,
+D1,alarm/normal,site id,in-sample (ceiling),0.9726500340986588,0.9726500340986588,0.6850704705614913,0.2875795635371675,70384,,,,,
+D1,alarm/normal,sensor id,site-independent,0.6850704705614913,0.6850417476273012,0.6850704705614913,0.0,70384,"every test sensor is unseen, so the lookup falls back to the training-fold majority class; its score depends only on how the class mix differs between sites",0.4490940312527897,0.9368662424584088,site,49.0
+D1,alarm/normal,lrate (device),site-independent,1.0,1.0,0.6850704705614913,0.3149295294385087,70384,,1.0,1.0,site,49.0
+D1,alarm/normal,llevel (device),site-independent,0.7381223005228461,0.7381089533062969,0.6850704705614913,0.053051829961354824,70384,,0.6395851692247398,0.8529134809809502,site,49.0
+D1,alarm/normal,acquisition date,site-independent,0.7751903841782223,0.7751816353418071,0.6850704705614913,0.090119913616731,70384,,0.6775624301215649,0.8506506013678401,site,49.0
+D1,alarm/normal,all metadata,site-independent,1.0,1.0,0.6850704705614913,0.3149295294385087,70384,"v1 definition: lrate, llevel, sensor and site codes; depth-3 tree",1.0,1.0,site,49.0
+D1,5-class,sensor id,official provider split,0.99769820971867,,0.3148337595907928,0.6828644501278771,7820,"fitted on 'training', scored on 'validation'",,,,
+D1,5-class,site id,official provider split,0.6592071611253197,,0.3148337595907928,0.34437340153452695,7820,"fitted on 'training', scored on 'validation'",,,,
+D1,5-class,lrate (device),official provider split,0.5951406649616369,,0.3148337595907928,0.2803069053708441,7820,"fitted on 'training', scored on 'validation'",,,,
+D1,5-class,all metadata,official provider split,0.6159846547314578,,0.3148337595907928,0.301150895140665,7820,"fitted on 'training', scored on 'validation'",,,,
+D1,leak/non-leak,sensor id,official provider split,0.9987212276214834,,0.5075447570332481,0.4911764705882353,7820,"fitted on 'training', scored on 'validation'",,,,
+D1,leak/non-leak,site id,official provider split,0.8309462915601024,,0.5075447570332481,0.3234015345268543,7820,"fitted on 'training', scored on 'validation'",,,,
+D1,leak/non-leak,lrate (device),official provider split,0.8072890025575448,,0.5075447570332481,0.2997442455242967,7820,"fitted on 'training', scored on 'validation'",,,,
+D1,leak/non-leak,all metadata,official provider split,0.8118925831202046,,0.5075447570332481,0.30434782608695654,7820,"fitted on 'training', scored on 'validation'",,,,
+D2,leak/no-leak,recording hour,leave-one-out,0.847457627118644,0.847457627118644,0.5932203389830508,0.2542372881355932,118,files of one logger on both sides,,,,
+D2,leak/no-leak,recording hour,logger-independent,0.847457627118644,0.8471014492753624,0.5932203389830508,0.2542372881355932,118,,0.7187057783018868,0.9607843137254902,logger,32.0
+D2,leak/no-leak,logger id,in-sample (ceiling),1.0,1.0,0.5932203389830508,0.4067796610169492,118,,,,,
+D2,leak/no-leak,hour + material,logger-independent,0.847457627118644,0.8471014492753624,0.5932203389830508,0.2542372881355932,118,,0.7187057783018868,0.9607843137254902,logger,32.0
+D2,leak/no-leak,file-naming convention,logger-independent,0.6,0.6,0.5,0.09999999999999998,140,NNN_LOGGER-YYYYMMDD files are all leak,,,,
+D2,leak/no-leak,sample rate + duration,logger-independent,0.6428571428571429,0.6428571428571429,0.5,0.1428571428571429,140,WAV header only,,,,
+D2,leak/no-leak,recording date,logger-independent,0.9210526315789473,0.919047619047619,0.7894736842105263,0.13157894736842102,38,subset with a date; different class balance - not comparable,,,,
+D3,leak/no-leak,topology,in-sample (ceiling),0.8,0.8,0.8,0.0,120,hydrophone recordings (n=120),,,,
+D3,leak/no-leak,flow,in-sample (ceiling),0.8,0.8,0.8,0.0,120,hydrophone recordings (n=120),,,,
+D3,leak/no-leak,noise,in-sample (ceiling),0.8,0.8,0.8,0.0,120,hydrophone recordings (n=120),,,,
+D3,leak/no-leak,sensor,in-sample (ceiling),0.8,0.8,0.8,0.0,120,hydrophone recordings (n=120),,,,
+D3,leak/no-leak,all metadata,in-sample (ceiling),0.8,0.7999999999999999,0.8,0.0,120,hydrophone recordings (n=120),,,,
+D3,leak/no-leak,all metadata,run-independent,0.8,0.8,0.8,0.0,120,hydrophone recordings (n=120),0.7,0.9,physical run,60.0
+D3,leak/no-leak,all metadata,v1 condition-independent,0.8,0.8,0.8,0.0,120,hydrophone recordings (n=120); v1 grouping (topology x leak type),,,,
+D3,leak/no-leak,topology,in-sample (ceiling),0.8,0.8,0.8,0.0,280,all modalities (n=280),,,,
+D3,leak/no-leak,flow,in-sample (ceiling),0.8,0.8,0.8,0.0,280,all modalities (n=280),,,,
+D3,leak/no-leak,noise,in-sample (ceiling),0.8,0.8,0.8,0.0,280,all modalities (n=280),,,,
+D3,leak/no-leak,sensor,in-sample (ceiling),0.8,0.8,0.8,0.0,280,all modalities (n=280),,,,
+D3,leak/no-leak,modality,in-sample (ceiling),0.8,0.8,0.8,0.0,280,all modalities (n=280),,,,
+D3,leak/no-leak,all metadata,in-sample (ceiling),0.8,0.8,0.8,0.0,280,all modalities (n=280),,,,
+D3,leak/no-leak,all metadata,run-independent,0.8,0.8,0.8,0.0,280,all modalities (n=280),0.7357142857142858,0.8642857142857143,physical run,140.0
+D3,leak/no-leak,all metadata,v1 condition-independent,0.8,0.8,0.8,0.0,280,all modalities (n=280); v1 grouping (topology x leak type),,,,

@@ -1,0 +1,9 @@
+dataset,task,predictor,protocol,sfb,baseline,n,above_baseline
+D1,5-class,sensor id,official provider split (train -> val),0.9976982097186701,0.31483375959079285,7820,0.6828644501278772
+D1,5-class,site id,official provider split (train -> val),0.6592071611253197,0.31483375959079285,7820,0.3443734015345269
+D1,5-class,lrate (device),official provider split (train -> val),0.5951406649616369,0.31483375959079285,7820,0.280306905370844
+D1,5-class,all metadata,official provider split (train -> val),0.6159846547314578,0.31483375959079285,7820,0.30115089514066495
+D1,leak/non-leak,sensor id,official provider split (train -> val),0.9987212276214834,0.5075447570332481,7820,0.4911764705882353
+D1,leak/non-leak,site id,official provider split (train -> val),0.8309462915601024,0.5075447570332481,7820,0.3234015345268543
+D1,leak/non-leak,lrate (device),official provider split (train -> val),0.8072890025575448,0.5075447570332481,7820,0.2997442455242967
+D1,leak/non-leak,all metadata,official provider split (train -> val),0.8118925831202046,0.5075447570332481,7820,0.30434782608695654
