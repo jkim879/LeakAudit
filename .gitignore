@@ -21,10 +21,7 @@ Thumbs.db
 .idea/
 
 
-# Local working files (not part of the public repository)
-notebooks/12_revision_numbers.ipynb
-results/revision_ledger.jsonl
-results/revision_numbers.csv
-results/REVISION_RESULTS.md
 
-results/table1_benchmarks.csv
+# Local working files (not part of the public repository)
+results/revision_ledger.jsonl
+results/REVISION_RESULTS.md

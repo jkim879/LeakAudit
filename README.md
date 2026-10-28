@@ -1,21 +1,16 @@
 # LeakAudit
 
-**A validity audit of public acoustic leak-detection benchmarks for water distribution networks.**
+**A forensic validity audit of public acoustic leak-detection benchmarks for water distribution networks.**
 
 Reported accuracies in acoustic leak detection routinely exceed 90 %. This
 repository asks a different question: *what are those numbers measuring?*
 Across three heterogeneous public benchmarks we hold the learning problem
-fixed and vary only the evaluation design, and examine how much of the
-reported performance can be explained by evaluation design and data
-collection rather than by leak acoustics. The weaknesses differ by benchmark
-and arise through different mechanisms. We provide protocols matched to
-deployment settings, a signal-free baseline as a diagnostic reporting item,
-and a distribution-free abstention layer as a reporting device.
-
-The work is prepared for the *Journal of Hydroinformatics* Special Issue
-*AI/ML and Data-Driven Methods for Monitoring, Modelling and Decision Support
-in Human-Impacted Water Systems* (IWA Publishing). Code comments follow
-British English (IWA house style).
+fixed and vary only the evaluation design, and quantify how much of the
+reported performance is attributable not to leak acoustics but to
+evaluation design and data collection. The weaknesses differ by benchmark
+and arise through different mechanisms. We provide deployment-realistic
+protocols, a signal-free baseline as a reporting item and diagnostic, and a
+coverage-guaranteed abstention layer as an honest reporting device.
 
 ---
 
@@ -61,7 +56,7 @@ McGreivy & Hakim (2024).
   over 4 models × 4 protocols × 10 seeds (160 fits per task), the evaluation
   **protocol accounts for 79–84 %** of the sum of squares in accuracy on the
   three D1 tasks (five-class, leak vs non-leak, outdoor vs indoor; same rows,
-  not independent) and **94 %** on D3, whereas the **model family accounts for
+  not independent) and **94.5 %** on D3, whereas the **model family accounts for
   2.5–2.6 %** on D1. On D2 (140 files) split-to-split variation dominates.
   These are descriptive shares for the levels tested.
 - **D1 — protocol collapse.** Five-class accuracy falls **0.894 → 0.327**
@@ -162,8 +157,8 @@ LeakAudit/
 None of the raw data is redistributed here.
 
 **D1 — AI-Hub dataset 138 (수도관로 누수 감지 데이터).**
-Register at <https://aihub.or.kr> and download dataset no. 138 (domestic
-access). Place the ten CSV files directly under `data_raw/D1_aihub/`. The
+Register at <https://aihub.or.kr/aihubdata/data/view.do?dataSetSn=138> and download dataset no. 138 (domestic access). 
+Place the ten CSV files directly under `data_raw/D1_aihub/`. The
 public description quotes ~50,000 records over 512 frequency columns; the
 distributed copy analysed here contains **70,384 records** with **513 spectral
 bins** (0–5,120 Hz at 10 Hz, both endpoints included). The full column
